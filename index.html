@@ -23,18 +23,18 @@
 </style>
 
 </head>
-<body class="sora-fonts">
-<header class="bg-gradient-to-b from-[#FFFFFF] to-[#e4dac8]">
+<body class="sora-fonts space-y-20">
+<header class="">
     <!-- navber -->
-     <nav class=" flex justify-between items-center px-4 lg:px-36 pt-6 pb-12 lg:pb-32 ">
+     <nav class=" flex justify-between items-center px-4 lg:px-36 py-3 lg:py-6  lg:pb-12  border-2 border-[#179800] lg:border-none mb-10 lg:mb-0 ">
         <!-- logo -->
         <div>
             <img class="" src="assets/logo-green.png" alt="">
             <!-- <img class="" src="assets/logo-white.png" alt=""> -->
         </div>
 
-        <div>
-            <ul class="">
+        <div >
+            <ul class="hidden lg:flex">
             <div class="flex gap-8 text-[#111111] "> 
                 <li><a href="">Product</a></li>
                 <li><a href="">Services</a></li>
@@ -43,9 +43,9 @@
             </div>
             </ul>
         </div>
-            <div class="">
-                <i class="mr-4 fa-solid fa-magnifying-glass"></i>
-                <i class=" mr-4 fa-solid fa-cart-shopping"></i>
+            <div class="hidden lg:flex">
+               <a href=""> <i class="mr-4 fa-solid fa-magnifying-glass"></i></a>
+               <a href=""> <i class=" mr-4 fa-solid fa-cart-shopping"></i></a>
                <button class="mr-3">
                 <a href="">Login</a>
                </button>
@@ -53,10 +53,13 @@
                 <a href="">Register</a>
                </button>
         </div>
+        <div>
+            <i class="fa-solid fa-bars text-5xl font-semibold"></i>
+        </div>
      </nav>
      <!-- banner section -->
-     <div class=" p-6"> 
-       <div class=" mx-auto space-y-8" >
+     <div class=" px-6 bg-gradient-to-b from-[#FFFFFF] to-[#e4dac8]"> 
+       <div class="lg:w-[800px] mx-auto space-y-8" >
         <h1 class=" text-3xl lg:text-5xl font-semibold text-center ">Freshness <span class="text-[#179800]">You Can <br>
 Count On </span>, Prices You'll Love</h1>
         <p class="text-[#575555] text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we've got you covered every day!</p>
@@ -68,8 +71,65 @@ Count On </span>, Prices You'll Love</h1>
 
 </header>
 
-<main> 
+<main>
+     <!--services section  -->
+<section class="lg:w-[1320px] mx-auto p-8 space-y-7">
+ <h2 class="text-4xl font-semibold text-[#179800] ">Services</h2>
+ <!-- services cards -->
+ <div class="flex flex-col lg:flex-row gap-6">
+    <!-- card-1 -->
+ <div class="bg-[#EFEBE3] p-8 rounded-2xl text-center space-y-5">
+    <div class="flex justify-center">
+        <img src="assets/support.png" alt="">
+    </div>
+  <h1 class="text-2xl font-semibold">24/7 services</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+ </div>
+ <!-- card-2 -->
+ <div class="bg-[#EFEBE3] p-8 rounded-2xl text-center space-y-5">
+    <div class=" flex justify-center">
+        <img src="assets/fast-delivery.png" alt="">
+    </div>
+  <h1 class="text-2xl font-semibold">Fast Delivery</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+ </div>
+ <!-- card-3 -->
+ <div class="bg-[#EFEBE3] p-8 rounded-2xl text-center space-y-5">
+    <div class="flex justify-center">
+        <img src="assets/healthy-100.png" alt="">
+    </div>
+  <h1 class="text-2xl font-semibold">Healthy Products </h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+ </div>
+ </div>
+</section>
 
+
+<!-- -->
+<section class="bg-[#EFEBE3]">
+    <h2 class="text-4xl font-semibold text-[#179800] ">Popular Products</h2>
+    <div class="grid grid-cols-4 gap-7 p-20">
+        <!--card-1  -->
+       
+        <div class=" flex items-center gap-4 bg-white px-4 py-4 rounded-xl">
+          <div class="bg-[#EFEBE3] rounded-xl p-2">
+            <img  src="assets/product-onion.png" alt="">
+          </div>
+          <div>
+            <i class="fa-solid fa-star text-[#FFC107] mr-2"></i>
+            <h2 class="inline ">4.5</h2>
+            <h1 class="text-xl font-semibold">Onion 1 KG</h1>
+            <h1 class="font-medium">$39.99</h1>
+          </div>
+        </div>
+        <!-- card-2 -->
+         
+        <!-- card-3 -->
+        
+        <!-- card-4 -->
+
+    </div>
+</section>
 </main>
 
 <footer>
