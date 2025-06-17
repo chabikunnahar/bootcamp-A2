@@ -35,7 +35,7 @@
 
         <div >
             <ul class="hidden lg:flex">
-            <div class="flex gap-8 text-[#111111] "> 
+            <div class="flex gap-8 text-xl text-[#111111] "> 
                 <li><a href="">Product</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">Contact us</a></li>
@@ -43,17 +43,17 @@
             </div>
             </ul>
         </div>
-            <div class="hidden lg:flex">
-               <a href=""> <i class="mr-4 fa-solid fa-magnifying-glass"></i></a>
-               <a href=""> <i class=" mr-4 fa-solid fa-cart-shopping"></i></a>
-               <button class="mr-3">
+            <div class="hidden lg:flex items-center">
+               <a href=""> <i class=" text-xl mr-4 fa-solid fa-magnifying-glass"></i></a>
+               <a href=""> <i class="text-xl mr-4 fa-solid fa-cart-shopping"></i></a>
+               <button class="mr-3 px-8 py-3 border border-[#179800] rounded-lg text-xl">
                 <a href="">Login</a>
                </button>
-               <button >
+               <button class="bg-[#179800] px-8 py-3 rounded-lg text-white text-xl " >
                 <a href="">Register</a>
                </button>
         </div>
-        <div>
+        <div class="lg:hidden">
             <i class="fa-solid fa-bars text-5xl font-semibold"></i>
         </div>
      </nav>
@@ -297,7 +297,36 @@ Count On </span>, Prices You'll Love</h1>
 </main>
 
 <footer>
+  <!-- Grocery card -->
+   <div class="flex flex-col lg:flex-row lg:gap-32 items-center bg-[#EFEBE3] lg:w-[1320px] lg:mx-auto  lg:px-20 lg:py-14 rounded-3xl mb-20 mx-4 pt-5 ">
+    <!-- image -->
+     <div class="">
+      <img src="assets/fruit-basket.png" alt="">
+     </div>
 
+     <div class="pt-10 pb-7 px-5 space-y-7 text-center lg:text-start">
+        <h1 class=" lg:text-4xl text-3xl text-[#179800]  lg:text-black font-semibold">Get Grocery News!</h1>
+        <p class="lg:text-xl">Exclusive training tips, ticks, product deals and more.</p>
+        <input class="block text-[#C4C4C4] bg-white py-5 pl-5 pr-[130px] lg:pr-[200px] rounded-lg " type="email" name="" id="" placeholder="Enter email....">
+        <div class="">
+          <button class="bg-[#179800]  px-8 py-3 rounded-lg text-white text-xl " >
+                <a href="">Subscribe</a>
+               </button>
+        </div>
+        
+     </div>
+   </div>
+   <!-- footer -->
+<div class="bg-[#179800]"> 
+  <!-- left colmn -->
+<div>
+  <img src="assets/logo-white.png" alt="">
+</div>
+<!-- center colmn -->
+<div></div>
+<!-- right colmn -->
+<div></div>
+</div>
 </footer>
 </body>
 </html>
